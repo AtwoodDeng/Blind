@@ -104,7 +104,7 @@
 
 				float rate = GetCoverRate( i.worldPos) ;
 				col = lerp( _MainColor , col , rate );
-				col.a = rate
+				col.a = rate;
 
 
 				// apply fog

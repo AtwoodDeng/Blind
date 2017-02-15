@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+
 namespace CF.CameraBot
 {
     [DisallowMultipleComponent]
@@ -46,12 +47,13 @@ namespace CF.CameraBot
         {
             get
             {
+
                 return (this.isMobile && accelerater) ?
                     new Vector2(
                         Input.acceleration.x,
                         Input.acceleration.y) :
                     new Vector2(
-                        ((MouseHorizontal.Length > 0) ? Input.GetAxis(MouseHorizontal) : 0f),
+						((MouseHorizontal.Length > 0) ? Input.GetAxis(MouseHorizontal) : 0f),
                         ((MouseVertical.Length > 0) ? Input.GetAxis(MouseVertical) : 0f));
             }
         }
