@@ -5,7 +5,7 @@ using UnityEngine;
 public class inkCube : InkObject {
 
 
-	static int totalInk = 12;
+	static int totalInk = 5;
 
 	[SerializeField] MinMax createDistance;
 	bool isTouch = false;

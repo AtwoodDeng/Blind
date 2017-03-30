@@ -44,10 +44,10 @@ Shader "Unlit/InkFloor"
 			float4 _CoverTex_ST;
 			fixed4 _MainColor;
 
-			uniform float4 InkPos[64];
-			uniform float InkSca[64];
-			uniform float InkAlp[64];
-			uniform float InkAng[64];
+			uniform float4 InkPos[6];
+			uniform float InkSca[6];
+			uniform float InkAlp[6];
+			uniform float InkAng[6];
 			uniform int InkNum;
 
 			

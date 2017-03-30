@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class InkFloor : InkObject {
 
-	static int totalInk = 10;
+	static int totalInk = 6;
 
 	[SerializeField] float InkIntervalMax = 0.5f;
 	[SerializeField] float InkIntervalMin = 0.1f;
